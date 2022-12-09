@@ -1,0 +1,293 @@
+.heading h1 {
+  font-size: 30px;
+  background-color: rgb(43, 56, 110);
+  text-align: center;
+  color: rgb(30, 163, 216);
+}
+.heading h2 {
+  font-size: 28px;
+  font-weight: 500;
+  border-left: 8px solid #9797e4;
+  padding: 5px 15px;
+  margin-bottom: 15px;
+  color: rgba(14, 14, 14, 0.993);
+}
+
+.container2 {
+  background-color: #7f70c2;
+}
+/* Donation Section */
+.don-sec {
+  background-color: #3e3466;
+  padding: 0;
+}
+
+.don-sec .don-box {
+  margin: 50px 0;
+  background-color: #c6b9ff;
+  padding: 50px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 15px #2f0241;
+  transition: all 1s;
+}
+
+.don-sec .don-box img {
+  width: 70px;
+  transition: all 1s;
+}
+
+.don-sec .don-box h3 {
+  margin: 15px 0 10px;
+}
+
+.don-sec .don-box p {
+  margin-bottom: 25px;
+}
+
+.don-sec .don-box:hover img {
+  transform: scale(1.1);
+}
+
+/*Donation Button*/
+.btn1 {
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #303054;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none !important;
+  transition: all 0.5s;
+}
+
+.btn1:hover {
+  background-color: #545492;
+}
+/*Map Div :VillageMap*/
+.mapcontain {
+  text-align: center;
+  padding: 10px;
+  background-color: #7f70c2;
+}
+
+/*Form Styling*/
+.main {
+  float: left;
+  width: 100%;
+  background-color: #7f70c2;
+  border: 3px solid #303054;
+  font-weight: bold;
+}
+
+.main2 {
+  /*For suggestion Box*/
+  background-color: #c6b9ff;
+}
+
+.main3 {
+  /*For suggestion Box*/
+  background-color: #a664b9;
+}
+
+.f1 {
+  width: 400px;
+  margin: 0 auto;
+}
+.prof {
+  float: right;
+  width: 100px;
+  margin-right: 400px;
+}
+.conttainer {
+  margin: 10px;
+  background-color: blue;
+  border: 3px solid #303054;
+}
+
+input#submit {
+  background-color: #303054;
+  color: #f1f1f1;
+}
+input#submit:hover {
+  background-color: #5a5a9c;
+}
+
+/*Shop section*/
+#pricing-table {
+  display: block;
+  padding: 2px;
+}
+.shoprow {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.5;
+  color: black;
+}
+.shopcol {
+  display: inline-block;
+  background-color: #7f70c2;
+  width: 26%;
+  vertical-align: middle;
+  margin: 5px;
+  padding: 2.8px;
+  border: 2px solid rgb(141, 88, 134);
+}
+
+.shopcol img {
+  width: 100%;
+  height: 250px;
+}
+
+.shopcol img:hover {
+  transform: scale(1.05);
+}
+
+.shopcol:hover {
+  background-color: #9c8ed8;
+}
+
+.sbtn {
+  visibility: hidden;
+  background-color: #2f0241;
+  color: lightslategray;
+  padding: 3px 15px;
+  text-decoration: none;
+}
+.shopcol:hover .sbtn {
+  visibility: visible;
+}
+
+.sbtn:hover {
+  color: #dddddd;
+}
+/*News Section*/
+#news-table {
+  display: block;
+  padding: 2px;
+}
+.newsrow {
+  text-align: center;
+  width: inherit;
+  height: inherit;
+  font-size: 15px;
+  line-height: 1.5;
+  color: black;
+}
+.newscol {
+  background-color: #7f70c2;
+  width: inherit;
+  height: inherit;
+  vertical-align: left;
+  margin: 2px;
+  padding: 2.8px;
+  border: 2px solid rgb(141, 88, 134);
+}
+
+.newscol img {
+  width: 100%;
+  height: 250px;
+}
+
+.newscol:hover {
+  background-color: #9789d6;
+  transform: scale(1.03);
+}
+
+.item1 {
+  grid-area: n1;
+}
+.item2 {
+  grid-area: n2;
+}
+.item3 {
+  grid-area: n3;
+}
+.item4 {
+  grid-area: n4;
+}
+.item5 {
+  grid-area: n5;
+}
+.item6 {
+  grid-area: n6;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "n1 n1 n2 n2 n2 n2"
+    "n3 n3 n3 n3 n4 n4"
+    "n5 n5 n5 n6 n6 n6";
+  gap: 10px;
+  background-color: rgb(141, 88, 134);
+  padding: 10px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/*garbage shedule and other tables*/
+
+table {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  color: rgb(223, 88, 223);
+  padding: 8px;
+  width: 1%;
+}
+
+.maing {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 5px;
+  background-color: lightblue;
+  border: 3px solid #f1f1f1;
+}
+
+.main2g {
+  display: inline-block;
+  width: 45%;
+  padding: 5px;
+  background-color: lightblue;
+  border: 3px solid #f1f1f1;
+}
+
+.main3g {
+  width: 45%;
+  display: inline-block;
+  padding: 5px;
+  background-color: rgb(61, 9, 52);
+  border: 3px solid #f1f1f1;
+}
+
+.f1 {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.prof {
+  width: 100px;
+  margin-right: 400px;
+}
+.conttainer {
+  margin: 10px;
+  background-color: blue;
+  border: 3px solid #f1f1f1;
+}
+
+.Eventtable {
+  display: block;
+  padding: 5px;
+  background-color: rgb(61, 9, 52);
+  border: 3px solid #f1f1f1;
+}
